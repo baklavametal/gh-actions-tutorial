@@ -1,0 +1,16 @@
+# name: 'CHANGE ME - NO'
+# description: 'CHANGE ME - NO'
+# author: 'CHANGE ME - NO'
+# branding:
+#   icon: box
+#   color: blue
+ 
+runs:
+  using: composite
+  steps:
+    - name: Cancel Workflow
+      shell: bash
+      run: |
+        echo "again hello"
+      # env:
+      #   GH_TOKEN: ${{ github.token }}
